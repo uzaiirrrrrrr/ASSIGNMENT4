@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parking Slot Details"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etSlotName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Slot Name"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price (per hour)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <Switch
+        android:id="@+id/swOccupied"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is Occupied"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

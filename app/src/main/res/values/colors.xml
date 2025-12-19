@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Light Theme Colors -->
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="dark_primary">#FFBB86FC</color>
+    <color name="dark_primary_variant">#FF3700B3</color>
+    <color name="dark_secondary">#FF03DAC6</color>
+
+    <!-- Custom Theme Colors (e.g., Orange/Blue) -->
+    <color name="custom_primary">#FFFF9800</color>
+    <color name="custom_primary_dark">#FFF57C00</color>
+    <color name="custom_accent">#FF03A9F4</color>
+</resources>
